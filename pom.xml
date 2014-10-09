@@ -30,11 +30,29 @@ under the License.
   <artifactId>effective-pom-plugin</artifactId>
   <version>0.1-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
-
   <name>Effective Pom Plugin</name>
+  <licenses>
+    <license>
+      <name>Apache 2.0 License</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
   <description>
-      
+    Effective Pom plugin, creates an effective pom and then this can be installed using maven install pluign.
   </description>
+
+  <scm>
+    <connection>scm:git:git@github.com:ScrapCodes/effective-pom-plugin.git</connection>
+    <url>scm:git:git@github.com:ScrapCodes/effective-pom-plugin.git</url>
+    <developerConnection>scm:git:git@github.com:ScrapCodes/effective-pom-plugin.git</developerConnection>
+  </scm>
+
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/scrapcodes/effective-pom-plugin/issues</url>
+  </issueManagement>
   <inceptionYear>2014</inceptionYear>
 
   <prerequisites>
